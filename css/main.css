@@ -158,7 +158,7 @@ h1 {
 
 h3 {
   font-size: 40px;
-  margin: 50px 50px 10px 5%;
+  margin: 100px 50px 10px 5%;
   color: #232323;
   font-weight: 300; }
 
@@ -245,5 +245,106 @@ h3 {
   #resources li a {
     color: white;
     text-decoration: none; }
+
+.code {
+  width: 90%;
+  margin: 0px;
+  margin: auto;
+  margin-bottom: 60px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px; }
+
+.code li {
+  width: 600px;
+  display: inline-block;
+  margin: 40px 20px;
+  text-align: left; }
+  .code li iframe {
+    transform: translate(0px, 20px);
+    box-shadow: 0 0px 6px rgba(0, 0, 0, 0.08); }
+  .code li a {
+    color: #232323;
+    text-decoration: none; }
+
+.Articles {
+  width: 90%;
+  margin: 0px;
+  margin: auto;
+  margin-bottom: 60px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden; }
+
+.Articles li {
+  transition: all 0.3s ease;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  margin: 40px 20px;
+  text-align: left;
+  width: 550px;
+  height: 450px; }
+  .Articles li a {
+    font-size: 28px;
+    font-weight: 400;
+    color: #232323;
+    text-decoration: none; }
+  .Articles li p {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #2d2d2d; }
+  .Articles li img {
+    width: 45%;
+    margin-left: 27.5%; }
+  .Articles li .go {
+    transition: all 0.6s cubic-bezier(0.31, -0.32, 0.1, 1.99);
+    color: #0a539e;
+    opacity: 0;
+    transform: translate(-100px, 0px); }
+  .Articles li .links {
+    position: absolute;
+    z-index: 100;
+    width: inherit;
+    height: inherit; }
+  .Articles li:hover {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05); }
+    .Articles li:hover .go {
+      opacity: 1;
+      transform: translate(0px, 0px); }
+
+.spec {
+  transition: all 0.3s ease;
+  text-align: center;
+  margin: 40px 10%;
+  margin-bottom: 100px;
+  width: 180px;
+  height: 60px;
+  border-radius: 100px;
+  background-color: rgba(10, 83, 158, 0.7);
+  box-shadow: 0 0px 6px rgba(0, 0, 0, 0.9); }
+  .spec a {
+    position: absolute;
+    transform: translate(-50%, 30%);
+    z-index: 100;
+    width: inherit;
+    height: inherit;
+    font-size: 20px;
+    font-weight: 300;
+    color: #232323;
+    text-decoration: none; }
+  .spec:hover {
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05); }
+    .spec:hover a {
+      color: white;
+      font-weight: 400; }
 
 /*# sourceMappingURL=main.css.map */
